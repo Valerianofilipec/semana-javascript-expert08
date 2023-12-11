@@ -21,7 +21,7 @@ export default class Routes {
         response.writeHead(200, { Connection: 'close' });
         response.end(`
             <html>
-                <head><title>File Upload - Erick Wendel</title></head>
+                <head><title>File Upload - Valeriano Filipe</title></head>
                 <body>
                 <form method="POST" enctype="multipart/form-data">
                     <input type="file" name="filefield"><br />
